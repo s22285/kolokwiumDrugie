@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s22285\\Desktop\\kolokwium2\\kolos2\\kolos2\\kolos2.csproj": {}
+    "C:\\Users\\s22285\\Desktop\\kolokwium2\\kolokwiumDrugie\\kolos2\\kolos2\\kolos2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s22285\\Desktop\\kolokwium2\\kolos2\\kolos2\\kolos2.csproj": {
+    "C:\\Users\\s22285\\Desktop\\kolokwium2\\kolokwiumDrugie\\kolos2\\kolos2\\kolos2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s22285\\Desktop\\kolokwium2\\kolos2\\kolos2\\kolos2.csproj",
+        "projectUniqueName": "C:\\Users\\s22285\\Desktop\\kolokwium2\\kolokwiumDrugie\\kolos2\\kolos2\\kolos2.csproj",
         "projectName": "kolos2",
-        "projectPath": "C:\\Users\\s22285\\Desktop\\kolokwium2\\kolos2\\kolos2\\kolos2.csproj",
+        "projectPath": "C:\\Users\\s22285\\Desktop\\kolokwium2\\kolokwiumDrugie\\kolos2\\kolos2\\kolos2.csproj",
         "packagesPath": "C:\\Users\\s22285\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s22285\\Desktop\\kolokwium2\\kolos2\\kolos2\\obj\\",
+        "outputPath": "C:\\Users\\s22285\\Desktop\\kolokwium2\\kolokwiumDrugie\\kolos2\\kolos2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -44,6 +44,20 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
